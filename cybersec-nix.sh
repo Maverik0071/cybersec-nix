@@ -1,3 +1,4 @@
+!/bin/bash
 # script for installing the curl command with my nixos commands
 
 sudo nix-channel --add https://nixos.org/channels/nixos-unstable
