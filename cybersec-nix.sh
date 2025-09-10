@@ -4,9 +4,11 @@
 sudo nix-channel --add https://nixos.org/channels/nixos-unstable
 sudo nix-channel --add https://nixos.org/channels/nixpkgs-unstable
 
+sudo nix-channel --update
+
 git clone https://www.github.com/Maverik0071/nixos-config.git
 
-sudo cp ~/nixos-config/modules/cybersec-config.nix /etc/nixos/configuration.nix
+sudo cp ~/Documents/nixos-config/modules/cybersec-config.nix /etc/nixos/configuration.nix
 
 #cd /etc/nixos/
 
