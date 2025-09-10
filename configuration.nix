@@ -9,7 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
      # inputs.nixos-cosmic.nixosModules.default
-     inputs.home-manager.nixosModules.default
+     # inputs.home-manager.nixosModules.default
     ];
    
   # XWayland
@@ -448,7 +448,7 @@
     sublime4
     gnome-boxes
     alacritty
-    alacritty-graphics
+    # alacritty-graphics
     kdePackages.okular
     libreoffice-still
     swaybg
