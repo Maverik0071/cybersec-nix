@@ -8,9 +8,11 @@ sudo nix-channel --update
 
 git clone https://www.github.com/Maverik0071/nixos-config.git
 
+cd cybersec-nix/
+
 cd nixos-config/
 
-cd nixos-config/modules/host/
+cd modules/host/
 
 sudo cp cybersec-config.nix /etc/nixos/configuration.nix
 
